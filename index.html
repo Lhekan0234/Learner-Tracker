@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="TechDojo learner tracker for attendance and milestones">
+<title>TechDojo | Learner Tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="#overview"><span class="brand-mark">T</span><span><strong>Learner Tracker</strong><small>TechDojo · Cohort 1</small></span></a>
+<nav aria-label="Main navigation"><a href="#attendance">Attendance</a><a href="#milestones">Milestones</a><a href="#summary">Summary</a></nav>
+</div></header>
+<main id="overview" class="page-shell">
+<section class="welcome"><div><p class="eyebrow">WEEK 1 · PILOT COHORT</p><h1>Keep learning.<br><span>Keep moving forward.</span></h1><p class="welcome-copy">A simple space to check participation, milestones, and the next step in your learning journey.</p></div><div class="welcome-stat"><span class="stat-label">Release Gate 1</span><strong>Week 1</strong><span>Quest 1 &amp; Product Pack</span></div></section>
+<section id="attendance" class="card attendance-card" aria-labelledby="attendance-title"><div class="section-heading"><div><p class="eyebrow">SESSION RECORD</p><h2 id="attendance-title">Live session attendance</h2></div><span class="date-chip">Session · Week 1</span></div>
+<p id="status-banner" class="notice" role="status" aria-live="polite">Choose an attendance status for each learner.</p>
+<ul class="learner-list">
+<li class="learner-row" data-learner="Amaka O."><span class="learner-avatar" aria-hidden="true">AO</span><div class="learner-info"><strong>Amaka O.</strong><span>Participant</span><span class="learner-status" data-role="status">Unmarked</span></div><div class="action-group" aria-label="Attendance status for Amaka O."><button class="status-btn" data-status="Present">Present</button><button class="status-btn" data-status="Absent">Absent</button><button class="status-btn" data-status="Excused">Excused</button></div></li>
+<li class="learner-row" data-learner="Tunde B."><span class="learner-avatar" aria-hidden="true">TB</span><div class="learner-info"><strong>Tunde B.</strong><span>Participant</span><span class="learner-status" data-role="status">Unmarked</span></div><div class="action-group" aria-label="Attendance status for Tunde B."><button class="status-btn" data-status="Present">Present</button><button class="status-btn" data-status="Absent">Absent</button><button class="status-btn" data-status="Excused">Excused</button></div></li>
+<li class="learner-row" data-learner="Zainab K."><span class="learner-avatar" aria-hidden="true">ZK</span><div class="learner-info"><strong>Zainab K.</strong><span>Participant</span><span class="learner-status" data-role="status">Unmarked</span></div><div class="action-group" aria-label="Attendance status for Zainab K."><button class="status-btn" data-status="Present">Present</button><button class="status-btn" data-status="Absent">Absent</button><button class="status-btn" data-status="Excused">Excused</button></div></li>
+</ul><div class="card-footer"><span id="attendance-counter">Marked learners: 0 of 3</span><button id="save-attendance" class="primary-btn" type="button">Save attendance</button></div></section>
+<section id="milestones" class="card" aria-labelledby="milestones-title"><div class="section-heading"><div><p class="eyebrow">YOUR NEXT STEPS</p><h2 id="milestones-title">Week 1 milestones</h2></div><span class="progress-label">2 milestones</span></div><ul class="milestone-list"><li class="milestone-item"><span class="milestone-icon">01</span><div><strong>Quest 1 &amp; Product Pack</strong><p>Complete the Tracker Product Pack and prepare your submission.</p></div><span class="milestone-state">In progress</span></li><li class="milestone-item"><span class="milestone-icon">02</span><div><strong>Release Gate 1</strong><p>Review the Week 1 checkpoint and confirm your deliverables.</p></div><span class="milestone-state">Upcoming</span></li></ul></section>
+<section id="summary" class="summary-grid" aria-label="Cohort summary"><article class="summary-tile"><span class="summary-label">Learners</span><strong>03</strong><span>Sample roster</span></article><article class="summary-tile"><span class="summary-label">Attendance marked</span><strong id="summary-marked">0 / 3</strong><span>For this session</span></article><article class="summary-tile"><span class="summary-label">Milestones</span><strong>02</strong><span>Week 1</span></article></section>
+</main><footer class="site-footer"><p>TechDojo Pilot Cohort · Learner Project Tracker</p><p>Sample prototype for Week 1 learning tasks</p></footer><script src="script.js"></script></body></html>
